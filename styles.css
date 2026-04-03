@@ -1,0 +1,105 @@
+body {
+    height: 100hv;
+    display: grid;
+    place-items: center;
+}
+
+.carousel {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+    .carousel-slide{
+        width: 400%;
+        height: 50vh;
+        display: flex;
+        flex: 0 0 auto;
+        animation: carousel-animation 15s infinite alternate;
+        a {
+            display: flex;
+            position: relative;
+            width: calc(100% / 4);
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+.absolute-div {
+    position: absolute;
+    top: 10%;
+    img {
+        max-width: 13%;
+        margin-left: 42%;
+        padding: 0px 7px 7px 7px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+.carousel-caption p {
+    display: table-cell;
+    width: 30%;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.1em black;
+    paint-order: stroke fill;
+}
+
+
+
+@keyframes carousel-animation {
+    0%{transform: translateX(0%);}
+    23%{transform: translateX(0%);}
+    29.5%{transform: translateX(-25%);}
+    52.5%{transform: translateX(-25%);}
+    59%{transform: translateX(-50%);}
+    82%{transform: translateX(-50%);}
+    88.5%{transform: translateX(-75%);}
+    100%{transform: translateX(-75%);}
+
+}
+
+th, td {
+    padding: 20px
+}
+
+th {
+    width: 30vw;
+    height: auto;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 1em auto;
+    text-decoration: underline;
+}
+
+td > img {
+    width: 30vw; 
+    height: auto;
+}
+
+td > p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+}
