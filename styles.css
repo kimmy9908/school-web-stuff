@@ -62,12 +62,12 @@ body {
 
 @keyframes carousel-animation {
     0%{transform: translateX(0%);}
-    23%{transform: translateX(0%);}
-    29.5%{transform: translateX(-25%);}
-    52.5%{transform: translateX(-25%);}
-    59%{transform: translateX(-50%);}
-    82%{transform: translateX(-50%);}
-    88.5%{transform: translateX(-75%);}
+    25%{transform: translateX(0%);}
+    29.167%{transform: translateX(-25%);}
+    54.167%{transform: translateX(-25%);}
+    58.333%{transform: translateX(-50%);}
+    83.333%{transform: translateX(-50%);}
+    87.5%{transform: translateX(-75%);}
     100%{transform: translateX(-75%);}
 
 }
