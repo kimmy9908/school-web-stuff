@@ -2,13 +2,14 @@ body {
     height: 100hv;
     display: grid;
     place-items: center;
+    margin-top: 0;
 }
 
 .carousel {
     width: 50%;
     height: auto;
     overflow: hidden;
-    position: relative;
+
 
     .carousel-slide{
         width: 400%;
@@ -89,6 +90,7 @@ th {
 th > img {
     width: 30vw; 
     height: auto;
+    border-radius: 15%;
 }
 
 th > span {
@@ -107,7 +109,7 @@ td > p {
 .bar {
     width: 47.9%;
     height: 5vh;
-    background-color: aliceblue;
+    background-color: #265295;
     background-position: center;
     background-size: cover;
     margin-right: 2.1%;
