@@ -8,85 +8,127 @@
     </head>
 
     <body>
-        <!--Banner (top) (.carousel, .carousel-slide, .carousel-caption, @keyframes carousel-animation, .absolute-div, .limit)-->
-        <div class="carousel">
-            <div class="carousel-slide">
-                <a>
-                    <img src="./img/trường.jpg">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                        <div class="limit"><img src="./img/logo.png"></div>
-                            <p> Trường THPT </p>
-                            <p style="font-size:10vw; margin-top: 0;"> Chuyên Nguyễn Huệ </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#gioithieu">
-                    <img src="./img/img1.jpg" alt="img1">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                            <p> GIỚI THIỆU </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#hoatdong">
-                    <img src="./img/img2.jpg" alt="img2">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                            <p> HOẠT ĐỘNG </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#tuyensinh">
-                    <img src="./img/img3.jpg" alt="img3">
+        <main>
+            <!--Banner (top) (.carousel, .carousel-slide, .carousel-caption, @keyframes carousel-animation, .absolute-div, .limit)-->
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <a>
+                        <img src="./img/trường.jpg">
                         <div class="carousel-caption">
                             <div class="absolute-div">
-                                <p> TUYỂN SINH </p>
+                            <div class="limit"><img src="./img/logo.png"></div>
+                                <p> Trường THPT </p>
+                                <p style="font-size:10vw; margin-top: 0;"> Chuyên Nguyễn Huệ </p>
                             </div>
                         </div>
-                </a>
+                    </a>
+                    <a href="#gioithieu">
+                        <img src="./img/img1.jpg" alt="img1">
+                        <div class="carousel-caption">
+                            <div class="absolute-div">
+                                <p> GIỚI THIỆU </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#hoatdong">
+                        <img src="./img/img2.jpg" alt="img2">
+                        <div class="carousel-caption">
+                            <div class="absolute-div">
+                                <p> HOẠT ĐỘNG </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#tuyensinh">
+                        <img src="./img/img3.jpg" alt="img3">
+                            <div class="carousel-caption">
+                                <div class="absolute-div">
+                                    <p> TUYỂN SINH </p>
+                                </div>
+                            </div>
+                    </a>
+                </div>
             </div>
-        </div>
+    
+            <!--Navigation bar (bar, sticky)-->
+            <div class="bar sticky" style="z-index: 10;">
+                <nav>
+                    <ul>
+                        <li><a href="#thongtin">THÔNG TIN</a></li>
+                        <li><a href="#hoatdong">HOẠT ĐỘNG</a></li>
+                        <li><a href="#tuyensinh">TUYỂN SINH</a></li>
+                        <li><a href="#HStieubieu">HỌC SINH TIÊU BIỂU</a></li>
+                    </ul>
+                </nav>
+            </div>
+    <br>
+            <!--Paragraphs (table, th, td)-->
+            <div id="thongtin">
+                <table>
+                    <th> <span style="background-color: #265295;">THÔNG TIN</span> </th> <th rowspan="2"> <img src="./img/img1.jpg"> </th>
+                    <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
+                </table>
+            </div>
+    
+            <div id="hoatdong">
+                <table>
+                    <th rowspan="2"> <img src="./img/img2.jpg"> </th> <th> <span style="background-color: #e5c600;">HOẠT ĐỘNG</span> </th>
+                    <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
+                </table>
+            </div>
+    
+            <div id="tuyensinh">
+                <table>
+                    <th> <span style="background-color: #265295">TUYỂN SINH</span> </th> <th rowspan="2"> <img src="./img/img3.jpg"> </th>
+                    <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
+                </table>
+            </div>
+    
+            <div id="HStieubieu">
+                <table>
+                    <th rowspan="2"> <img src="./img/trường.jpg"> </th> <th> <span style="background-color: #e5c600;"> HỌC SINH TIÊU BIỂU </span> </th>
+                    <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr>
+                </table>
+            </div>
+        </main>
 
-        <!--Navigation bar (bar, sticky)-->
-        <div class="bar sticky" style="z-index: 10;">
-            <nav>
-                <ul>
-                    <li><a href="#thongtin">THÔNG TIN</a></li>
-                    <li><a href="#hoatdong">HOẠT ĐỘNG</a></li>
-                    <li><a href="#tuyensinh">TUYỂN SINH</a></li>
-                    <li><a href="#HStieubieu">HỌC SINH TIÊU BIỂU</a></li>
-                </ul>
-            </nav>
-        </div>
-<br>
-        <!--Paragraphs (table, th, td)-->
-        <div id="thongtin">
-            <table>
-                <th> <span style="background-color: #265295;">THÔNG TIN</span> </th> <th rowspan="2"> <img src="./img/img1.jpg"> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
-            </table>
-        </div>
-
-        <div id="hoatdong">
-            <table>
-                <th rowspan="2"> <img src="./img/img2.jpg"> </th> <th> <span style="background-color: #e5c600;">HOẠT ĐỘNG</span> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
-            </table>
-        </div>
-
-        <div id="tuyensinh">
-            <table>
-                <th> <span style="background-color: #265295">TUYỂN SINH</span> </th> <th rowspan="2"> <img src="./img/img3.jpg"> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr> <!--placeholder-->
-            </table>
-        </div>
-
-        <div id="HStieubieu">
-            <table>
-                <th rowspan="2"> <img src="./img/trường.jpg"> </th> <th> <span style="background-color: #e5c600;"> HỌC SINH TIÊU BIỂU </span> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et congue felis. Cras vulputate pulvinar lectus sed facilisis. Proin pulvinar arcu sit amet elit scelerisque ornare. Morbi accumsan luctus mollis. Nulla facilisi. Mauris varius sapien iaculis metus sodales porttitor sit amet vel lacus. Nam egestas imperdiet mauris sit amet vestibulum. Nunc ornare ligula ipsum, eu commodo justo vestibulum quis. Fusce interdum, quam et porttitor bibendum, ligula diam condimentum sem, in posuere est ex id elit. Donec eu sagittis orci. Nunc pellentesque dui at eros sodales interdum. Quisque condimentum gravida mauris, quis semper nisl venenatis eu. Pellentesque nec orci ultrices, auctor sem ac, tincidunt nulla. Aliquam aliquam nulla eu urna hendrerit vehicula. Morbi ut lobortis lectus, sed condimentum erat. Nunc metus sapien, lacinia vestibulum tempus non, aliquam interdum diam. </p> </td> </tr>
-            </table>
-        </div>
+        #bottomfooter so i had the code to have everything collected and forcing the footer to the bottom
+        
+        <footer class="footerholder">
+           
+            <div class="footer-brand"> #just the logo and name.
+                <img src="./img/logo.png" alt="Chuyên Nguyễn Huệ logo">
+                <div>
+                    <h2>Trường THPT Chuyên Nguyễn Huệ</h2>
+                </div>
+            </div>
+            
+            <div class="footer-contacts">
+                
+                #footer items hold the individual contact details with icons
+                
+                <div class="footer-item">
+                    <span class="icon">🌐</span>
+                    <a href="https://chuyenguyenhue.edu.vn/">chuyenguyenhue.edu.vn</a>
+                </div>
+               
+                <div class="footer-item">
+                    <span class="icon">📞</span>
+                    <span>043.382.9018</span>
+                </div>
+                
+                <div class="footer-item">
+                    <span class="icon">✉️</span>
+                    <a href="mailto:C3nguyenhue@hanoiedu.vn">C3nguyenhue@hanoiedu.vn</a>
+                </div>
+                
+                <div class="footer-item">
+                    <span class="icon">📍</span>
+                    <span>560B Đ. Quang Trung, La Khê, Dương Nội, Hà Nội</span>
+                </div>
+            
+            </div>
+        
+        </footer>
+        
     </body>
 </html>
