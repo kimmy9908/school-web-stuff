@@ -8,8 +8,27 @@ body {
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    width: 0.4em;
+    border-radius: 10px; 
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color:  #265295 ;
+  outline: 1px transparent #265295;
+  border-radius: 10px; 
+  border: 1px solid transparent; 
+}
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 html, body {
-    overflow-x: hidden;
+    overflow-x: clip;
     width: 100%;
 }
 
