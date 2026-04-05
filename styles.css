@@ -8,9 +8,10 @@ body {
     margin: 0;
 }
 
-{
-  overflow: hidden; 
+.container {
+  overflow-x: hidden;
 }
+
 
 .carousel {
     width: 100vw;
