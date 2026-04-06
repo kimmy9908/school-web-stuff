@@ -90,7 +90,7 @@ body {
 
 .bar {
     width: 100%;
-    height: 9.9vh;
+    height: 8vh;
     background-color: #265295;
 
 }
@@ -147,6 +147,7 @@ nav ul li {
 
 .image {
     max-width: 20%;
+    max-height: 8vh;
     padding-left: 38%;
     
 }
