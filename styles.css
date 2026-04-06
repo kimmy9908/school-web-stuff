@@ -2,6 +2,17 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: Myfont ;
+    font-style: normal;
+    font-weight: normal;
+    src: url(Montserrat-SemiBold.woff) ;
+    }
+
+p{
+    font-family: Myfont ;
+}
+
 body {
     height: 100hv;
     place-items: center;
