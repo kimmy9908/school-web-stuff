@@ -9,42 +9,27 @@
 
     <body>
         <!--Banner (top) (.carousel, .carousel-slide, .carousel-caption, @keyframes carousel-animation, .absolute-div, .limit)-->
-        <div class="carousel">
+        <div class="carousel" style="height: 92vh;">
+            <div class="carousel-caption">
+                <div class="absolute-div">
+                <div class="limit"><img src="./img/logo.png"></div>
+                    <p> Trường THPT </p>
+                    <p style="font-size:10vw; font-style: italic; margin: 0;"> Chuyên Nguyễn Huệ </p>
+                </div>
+            </div>
             <div class="carousel-slide">
-                <a>
-                    <img src="./img/trường.jpg">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                        <div class="limit"><img src="./img/logo.png"></div>
-                            <p> Trường THPT </p>
-                            <p style="font-size:10vw; margin-top: 0;"> Chuyên Nguyễn Huệ </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#thongtin">
+                <div>
+                    <img src="./img/trường.jpg"> 
+                </div>
+                <div>
                     <img src="./img/img1.jpg" alt="img1">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                            <p> GIỚI THIỆU </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#hoatdong">
+                </div>
+                <div>
                     <img src="./img/img2.jpg" alt="img2">
-                    <div class="carousel-caption">
-                        <div class="absolute-div">
-                            <p> HOẠT ĐỘNG </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#tuyensinh">
+                </div>
+                <div>
                     <img src="./img/img3.jpg" alt="img3">
-                        <div class="carousel-caption">
-                            <div class="absolute-div">
-                                <p> TUYỂN SINH </p>
-                            </div>
-                        </div>
-                </a>
+                </div>
             </div>
         </div>
 
@@ -54,40 +39,40 @@
                 <ul>
                     <li>
                         <div class="wrap">
-                            <img src="./img/info.png" class="image" style="padding-left:10vw">
+                            <img src="./img/info - darkest blue.png" class="bar-image" style="padding-left:10vw">
                             <a href="#thongtin">
                                 <div class="bar-overlay">
-                                    <div class="text">THÔNG TIN</div>
+                                    <div class="bar-text">THÔNG TIN</div>
                                 </div>
                             </a>
                         </div>
                     </li>
                     <li>
                         <div class="wrap">
-                            <img src="./img/music.png" class="image" style="padding-left: 10vw;">
+                            <img src="./img/music.png" class="bar-image" style="padding-left: 10vw;">
                             <a href="#hoatdong">
                                 <div class="bar-overlay" style="margin-left: 25vw;">
-                                    <div class="text">HOẠT ĐỘNG</div>
+                                    <div class="bar-text">HOẠT ĐỘNG</div>
                                 </div>
                             </a>
                         </div>
                     </li>
                     <li>
                         <div class="wrap">
-                            <img src="img/book.png" class="image" style="padding-left:10.7vw;">
+                            <img src="img/book.png" class="bar-image" style="padding-left:11.6vw;">
                             <a href="#tuyensinh">
                                 <div class="bar-overlay" style="margin-left: 50vw;">
-                                    <div class="text">TUYỂN SINH</div>
+                                    <div class="bar-text">TUYỂN SINH</div>
                                 </div>
                             </a>
                         </div>
                     </li>
                     <li>
                         <div class="wrap">
-                            <img src="img/people.png" class="image" style="padding-left:11.4vw;">
+                            <img src="img/people.png" class="bar-image" style="padding-left:13.2vw;">
                             <a href="#HStieubieu">
                                 <div class="bar-overlay" style="margin-left: 75vw;">
-                                    <div class="text">HỌC SINH TIÊU BIỂU</div>
+                                    <div class="bar-text">HỌC SINH TIÊU BIỂU</div>
                                 </div>
                             </a>
                         </div>
@@ -99,30 +84,99 @@
         <!--Paragraphs (table, th, td)-->
         <div id="thongtin">
             <table>
-                <th> <span style="background-color: #265295;">THÔNG TIN</span> </th> <th rowspan="2"> <img src="./img/img1.jpg"> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus. </p> </td> </tr> <!--placeholder-->
+                <th> 
+                    <a href="#" style="background-color: #265295;">THÔNG TIN</a> 
+                </th> 
+                <th rowspan="2"> 
+                    <img src="./img/img1.jpg"> 
+                </th>
+                <tr> <td> <a href="#"> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus. </p> </a> </td> </tr> <!--placeholder-->
             </table>
         </div>
 
         <div id="hoatdong">
             <table>
-                <th rowspan="2"> <img src="./img/img2.jpg"> </th> <th> <span style="background-color: #e5c600;">HOẠT ĐỘNG</span> </th>
-                <tr> <td> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus. </p> </td> </tr> <!--placeholder-->
+                <th rowspan="2"> 
+                    <img src="./img/img2.jpg"> 
+                </th> 
+                <th> 
+                    <a href="#" style="background-color: #e5c600;">HOẠT ĐỘNG</a> 
+                </th>
+                <tr> <td> <a href="#"> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus. </p> </a> </td> </tr> <!--placeholder-->
             </table>
+        </div>
+
+        <div class="gallery">
+            <div class="gal-title"> Hình ảnh trường</div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/img1.jpg"></div>
+                        <div><img src="./img/img2.jpg"></div>
+                        <div><img src="./img/img3.jpg"></div>
+                        <div><img src="./img/trường.jpg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/img1.jpg"></div>
+                        <div><img src="./img/img2.jpg"></div>
+                        <div><img src="./img/img3.jpg"></div>
+                        <div><img src="./img/trường.jpg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/img1.jpg"></div>
+                        <div><img src="./img/img2.jpg"></div>
+                        <div><img src="./img/img3.jpg"></div>
+                        <div><img src="./img/trường.jpg"></div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="tuyensinh">
             <table>
-                <th> <span style="background-color: #265295">TUYỂN SINH</span> </th> <th rowspan="2"> <img src="./img/img3.jpg"> </th></p> </td> </tr> <!--placeholder-->
-                <tr> <td> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus.</p></td></tr>            </table>
+                <th> 
+                    <a href="#" style="background-color: #265295">TUYỂN SINH</a> 
+                </th> 
+                <th rowspan="2"> 
+                    <img src="./img/img3.jpg"> 
+                </th>
+                <tr> 
+                    <td> 
+                        <a href="#"> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus.</p>
+                        </a>
+                    </td>
+                </tr>            
+            </table>
         </div>
 
         <div id="HStieubieu">
             <table>
-                <th rowspan="2"> <img src="./img/trường.jpg"> </th> <th> <span style="background-color: #e5c600;"> HỌC SINH TIÊU BIỂU </span> </th>
-                <tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus.</p></td></tr>
+                <th rowspan="2"> 
+                    <img src="./img/trường.jpg"> 
+                </th> 
+                <th> 
+                    <a href="#" style="background-color: #e5c600;"> HỌC SINH TIÊU BIỂU </a> 
+                </th>
+                <tr>
+                    <td>
+                        <a href="#">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida justo et hendrerit venenatis. In dignissim, elit nec fermentum dapibus.</p>
+                        </a>
+                    </td>
+                </tr>
             </table>
         </div>
+
+
          <footer class="footerholder">
            
             <div class="footer-brand">
