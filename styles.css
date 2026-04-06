@@ -9,7 +9,25 @@ html {
     src: url('font/Montserrat-Medium.woff') format('woff');
     }
 
-p, a, div {
+@font-face {
+    font-family: Myfont2 ;
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/Montserrat-SemiBold.woff') format('woff');
+    }
+@font-face {
+    font-family: Myfont3 ;
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/Montserrat-Light.woff') format('woff');
+    }
+@font-face {
+    font-family: Myfont4 ;
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/Montserrat-Regular.woff') format('woff');
+    }
+p{
     font-family: Myfont ;
 }
 
