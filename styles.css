@@ -114,7 +114,7 @@ nav {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
-    max-height: 1000px;
+    max-height: 100%;
 }
 
 nav ul {
@@ -134,12 +134,9 @@ nav ul li {
 .wrap {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 3%;
-    padding-right: 3%;
     width: 100vw;
     height:8vh;
-    box-sizing: border-box;
-    background-color: #265295;
+    background-color: white;
 }
 
 .bar-overlay {
