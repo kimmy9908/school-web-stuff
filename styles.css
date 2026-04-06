@@ -312,4 +312,8 @@ td > p {
     color: #265295;
     font-size: 1.2rem;
 }
-    
+
+
+.img {
+    border: 2px solid yellow;
+}
