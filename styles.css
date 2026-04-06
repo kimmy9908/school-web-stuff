@@ -5,17 +5,25 @@ html {
 body {
     height: 100hv;
     place-items: center;
-    margin: 0;
-    overflow-x: hidden;
+    margin: 0px;
+    overflow-x: clip;
 }
 
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color:  #265295 ;
+  outline: 1px transparent #265295;
+  border-radius: 4px; 
+  border: 1px solid transparent; 
+}
 
 .carousel {
     width: 100%;
-    height: auto;
+    height: 92vh;
     overflow: hidden;
-
 
     .carousel-slide{
         width: 400%;
@@ -29,6 +37,9 @@ body {
             width: calc(100% / 4);
             img {
                 width: 100%;
+                max-height: 92vh;
+                margin-top: 0;
+                object-fit: cover;
             }
         }
     }
@@ -38,7 +49,7 @@ body {
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 92vh;
     margin: 0;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
     display: grid;
@@ -46,7 +57,7 @@ body {
 }
 .absolute-div {
     width: 100%;
-    height: 100%;
+    height: 92vh;
     margin: auto;
     position: absolute;
 }
@@ -59,6 +70,8 @@ body {
     font-weight: bolder;
     -webkit-text-stroke: 0.1em black;
     paint-order: stroke fill;
+    margin-top: 3%;
+    margin-bottom: 0;
 }
 
 .limit {
@@ -103,6 +116,10 @@ body {
 nav {
     width: 100%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 nav ul {
@@ -120,16 +137,16 @@ nav ul li {
 }
 
 .wrap {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height:8vh;
+    background-color: white;
 }
 
 .bar-overlay {
     position: absolute;
-    width: 24.2vw;
+    width: 24.9vw;
     height: 100%;
     top:0;
     bottom:0;
@@ -148,8 +165,6 @@ nav ul li {
 .image {
     max-width: 20%;
     max-height: 8vh;
-    padding-left: 38%;
-    
 }
 
 .text {
@@ -173,8 +188,14 @@ th {
     font-size: 2vw;
     font-weight: bold;
     color: white;
-    margin: 1vh 1vw auto;
+    margin: 0;
     overflow: hidden;
+}
+
+td {
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 th > img {
@@ -191,8 +212,65 @@ th > span {
 }
 
 td > p {
-    text-align: center;
+    text-align: justify;
     font-size: 2vw;
     font-weight: 400;
 }
 
+.footerholder {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #1f4e97;
+  color: #fff;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-brand img {
+  width: 80px;
+  height: auto;
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 0.5rem;
+}
+
+.footer-brand h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.footer-contacts {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.footer-item .icon {
+  min-width: 1.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content-left {
+
+}
