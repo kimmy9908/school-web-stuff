@@ -324,6 +324,32 @@ td > p {
     font-size: 1.2rem;
 }
 
+.ToC-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ToC-list li {
+    margin-bottom: 0.5rem;
+}
+
+.ToC-list a {
+    color: #265295;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.ToC-list a:hover {
+    text-decoration: underline;
+}
+
+.ToC-list ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
 
 .img {
     border: 2px solid yellow;
