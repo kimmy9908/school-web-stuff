@@ -31,6 +31,10 @@ p{
     font-family: Myfont ;
 }
 
+div {
+    font-family: Myfont2 ; 
+}
+
 body {
     height: 100hv;
     place-items: center;
