@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb {
     place-self: center center;
     color: white;
     text-align: center;
-    font-size: 5vw;
+    font-size: 6.5em;
     font-weight: bolder;
     -webkit-text-stroke: 0.1em black;
     paint-order: stroke fill;
