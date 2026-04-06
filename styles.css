@@ -6,7 +6,7 @@ html {
     font-family: Myfont ;
     font-style: normal;
     font-weight: normal;
-    src: url(Montserrat-SemiBold.woff) ;
+    src: url("Montserrat-Regular.woff") ;
     }
 
 p{
