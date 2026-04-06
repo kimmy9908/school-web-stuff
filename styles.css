@@ -9,7 +9,7 @@ html {
     src: url('font/Montserrat-Medium.woff') format('woff');
     }
 
-p{
+p, a{
     font-family: Myfont ;
 }
 
