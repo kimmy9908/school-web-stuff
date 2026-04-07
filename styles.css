@@ -297,11 +297,12 @@ td a {
   display: grid;
   grid-template-columns: minmax(220px, 320px) 1fr;
   gap: 1.5rem;
-  padding: 10%;
+  padding: 1%;
   background-color: #1f4e97;
   color: #fff;
   align-items: center;
   width: 100%;
+  margin-top: 5%;
 }
 
 .footer-brand {
@@ -348,20 +349,39 @@ td a {
   text-decoration: none;
 }
 
+.content-container {
+    display: grid;
+    margin-left: 15em;
+    margin-right: 20em;
+    margin-top: 1em;
+}
+
+span {
+    margin-left: 10vw;
+    a{
+    font-family: Myfont;
+    text-decoration: inherit;
+    color: inherit;
+    }
+}
 /* Text box section */
 .text-box {
     flex: 1;
     min-width: 0;
+    h5 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 .text-box h2 {
     margin-top: 0;
     color: #265295;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .text-box p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     color: #333;
 }
@@ -370,20 +390,22 @@ td a {
 .ToC-section {
     flex: 0 0 250px;
     padding: 1.5rem;
-    background-color: #f5f5f5;
-    border-left: 3px solid #265295;
+    background-color: #265295;
+    border: 3px solid #1c3c6c;
     height: fit-content;
+    margin-right: 20%;
 }
 
 .ToC-section h3 {
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #265295;
+    color: #f5f5f5 ;
     font-size: 1.2rem;
 }
 
 .ToC-list {
-    list-style-type: none;
+    list-style-type: disc;
+    color: #f5f5f5;
     padding: 0;
     margin: 0;
 }
@@ -393,7 +415,7 @@ td a {
 }
 
 .ToC-list a {
-    color: #265295;
+    color: #f5f5f5;
     text-decoration: none;
     font-size: 0.95rem;
 }
@@ -408,11 +430,8 @@ td a {
     margin-top: 0.5rem;
 }
 
-.img , video {
+.img {
     border: 2px solid yellow;
 }
 
-video {
-    width: 64vw;
-    height: 36vw;
-}
+
