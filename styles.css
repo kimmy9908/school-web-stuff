@@ -291,7 +291,7 @@ td a {
   display: grid;
   grid-template-columns: minmax(220px, 320px) 1fr;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 10%;
   background-color: #1f4e97;
   color: #fff;
   align-items: center;
