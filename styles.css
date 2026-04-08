@@ -454,8 +454,8 @@ span {
     border: 2px solid yellow;
 }
 
-video {
+.div-video {
     border: 2px solid yellow;
-    width: 40vw;
-    height: auto;
+    width: 48vw;
+    height: 27vw;
 }
