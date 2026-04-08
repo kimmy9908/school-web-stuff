@@ -293,8 +293,8 @@ td a {
     width: 42.67vh;
     margin: 1.8em;
     img {
-        width: 100%;
-        height: auto;
+        width: 24vh;
+        height: 42.67vh;
         object-fit: cover;
     }
 }
