@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>THPT Chuyên Nguyễn Huệ</title>
+    </head>
+
+    <body>
+        <!--Banner (top) (.carousel, .carousel-slide, .carousel-caption, @keyframes carousel-animation, .absolute-div, .limit)-->
+        <div class="carousel" style="height: 92vh;">
+            <div class="carousel-caption">
+                <div class="absolute-div">
+                <div class="limit"><img src="./img/logo.png"></div>
+                    <p> Trường THPT </p>
+                    <p style="font-size:8em; font-style: italic; margin: 0;"> Chuyên Nguyễn Huệ </p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div>
+                    <img src="./img/images/1. homepage/banner1.jpg" style="height: 92vh"> 
+                </div>
+                <div>
+                    <img src="./img/images/1. homepage/banner2.jpg" alt="img1" style="height: 92vh">
+                </div>
+                <div>
+                    <img src="./img/images/1. homepage/banner3.jpg" alt="img2" style="height: 92vh">
+                </div>
+                <div>
+                    <img src="./img/images/1. homepage/banner4.jpg" alt="img3" style="height: 92vh">
+                </div>
+            </div>
+        </div>
+
+        <!--Navigation bar (bar, sticky)-->
+        <div class="bar sticky" style="z-index: 10;">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="wrap">
+                            <img src="./img/info.png" class="bar-image" style="padding-left:10vw">
+                            <a href="#thongtin">
+                                <div class="bar-overlay">
+                                    <div class="bar-text">GIỚI THIỆU</div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="./img/music.png" class="bar-image" style="padding-left: 10vw;">
+                            <a href="#hoatdong">
+                                <div class="bar-overlay" style="margin-left: 25vw;">
+                                    <div class="bar-text">HOẠT ĐỘNG</div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="img/book.png" class="bar-image" style="padding-left:11.6vw;">
+                            <a href="#tuyensinh">
+                                <div class="bar-overlay" style="margin-left: 50vw;">
+                                    <div class="bar-text">TUYỂN SINH</div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="img/people.png" class="bar-image" style="padding-left:13.2vw;">
+                            <a href="#HStieubieu">
+                                <div class="bar-overlay" style="margin-left: 75vw;">
+                                    <div class="bar-text">HỌC SINH TIÊU BIỂU</div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <br>
+        <!--Paragraphs (table, th, td)-->
+        <div id="thongtin">
+            <table>
+                <th> 
+                    <a href="./gioithieu.html" style="background-color: #265295;">GIỚI THIỆU</a> 
+                </th> 
+                <th rowspan="2"> 
+                    <img src="./img/images/1. homepage/banner1.jpg"> 
+                </th>
+                <tr> <td> <a href="./gioithieu.html"> <p> Thông tin về lịch sử hình thành, kiến trúc, cơ sở vật chất cũng như những nét độc đáo khác làm nên
+                     ngôi trường này ! <span style="font-size: 1vw; font-weight: 100; margin:0;"> (bấm để xem thêm) </span> </p> </a> </td> </tr> <!--placeholder-->
+            </table>
+        </div>
+
+        <div id="hoatdong">
+            <table>
+                <th rowspan="2"> 
+                    <img src="./img/images/1. homepage/banner2.jpg"> 
+                </th> 
+                <th> 
+                    <a href="./hoatdong.html" style="background-color: #e5c600;">HOẠT ĐỘNG</a> 
+                </th>
+                <tr> <td> <a href="./hoatdong.html"> <p> Những câu lạc bộ thú vị, những hoạt động cũng như sự kiện độc đáo
+                     được tổ chức hàng năm tại trường có 102 <span style="font-size: 1vw; font-weight: 100; margin:0;"> (bấm để xem thêm) </span> </p> </a> </td> </tr> <!--placeholder-->
+            </table>
+        </div>
+
+        <div class="gallery">
+            <div class="gal-title">Hình ảnh trường</div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/images/1. homepage/gallery1.jpg"></div>
+                        <div><img src="./img/images/1. homepage/gallery4.jpg"></div>
+                        <div><img src="./img/images/1. homepage/gallery7.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/images/1. homepage/gallery2.jpg"></div>
+                        <div><img src="./img/images/1. homepage/gallery5.jpeg"></div>
+                        <div><img src="./img/images/1. homepage/gallery8.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="galitem">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <div><img src="./img/images/1. homepage/gallery3.jpg"></div>
+                        <div><img src="./img/images/1. homepage/gallery6.jpg"></div>
+                        <div><img src="./img/images/1. homepage/gallery9.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tuyensinh">
+            <table>
+                <th> 
+                    <a href="./tuyensinh.html" style="background-color: #265295">TUYỂN SINH</a> 
+                </th> 
+                <th rowspan="2"> 
+                    <img src="./img/images/1. homepage/banner3.jpg"> 
+                </th>
+                <tr> 
+                    <td> 
+                        <a href="./tuyensinh.html"> 
+                            <p> Thông tin và kết quả kì thì tuyển sinh bổ sung mới nhất cho năm nay 
+                                <span style="font-size: 1vw; font-weight: 100; margin:0;"> (bấm để xem thêm) </span> </p>
+                        </a>
+                    </td>
+                </tr>            
+            </table>
+        </div>
+
+        <div id="HStieubieu">
+            <table>
+                <th rowspan="2"> 
+                    <img src="./img/images/1. homepage/banner4.jpg"> 
+                </th> 
+                <th> 
+                    <a href="./credits.html" style="background-color: #e5c600;"> HỌC SINH TIÊU BIỂU </a> 
+                </th>
+                <tr>
+                    <td>
+                        <a href="./credits.html">
+                            <p> Uh easter egg, đây là phần nói về những người làm nên trang web này halloooo 
+                                <span style="font-size: 1vw; font-weight: 100; margin:0;"> (bấm để xem thêm) </span></p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+         <footer class="footerholder">
+           
+            <div class="footer-brand">
+                <img src="./img/logo.png" alt="Chuyên Nguyễn Huệ logo">
+                <div>
+                    <h2>Trường THPT Chuyên Nguyễn Huệ</h2>
+                </div>
+            </div>
+            
+            <div class="footer-contacts">
+
+                
+                <div class="footer-item">
+                    <span class="icon">🌐</span>
+                    <a href="https://chuyennguyenhue.edu.vn/">chuyennguyenhue.edu.vn</a>
+                </div>
+               
+                <div class="footer-item">
+                    <span class="icon">📞</span>
+                    <span style="margin-left: 0; padding-left: 0;">043.382.9018</span>
+                </div>
+                
+                <div class="footer-item">
+                    <span class="icon">✉️</span>
+                    <a href="mailto:C3nguyenhue@hanoiedu.vn">C3nguyenhue@hanoiedu.vn</a>
+                </div>
+                
+                <div class="footer-item">
+                    <span class="icon">📍</span>
+                    <span style="margin-left: 0; padding-left: 0;">560B Đ. Quang Trung, La Khê, Dương Nội, Hà Nội</span>
+                </div>
+            
+            </div>
+        
+        </footer>
+    </body>
+</html>
