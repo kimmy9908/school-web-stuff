@@ -450,8 +450,12 @@ span {
     margin-top: 0.5rem;
 }
 
-.img {
+.img{
     border: 2px solid yellow;
 }
 
-
+video {
+    border: 2px solid yellow;
+    width: 40vw;
+    height: auto;
+}
