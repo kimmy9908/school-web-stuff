@@ -293,13 +293,22 @@ td a {
     height: 24vh;
     width: 42.67vh;
     margin: 2vh;
-    div {
-        height: 24vh;
-        width: 42.67vh;
-        img {
+    .carousel {
+        .carousel-slide {
+            width: 300%;
+            height: auto;
+            animation: gal-animation 12s infinite alternate;
+            div {
+            position: relative;
+            display: flex;
+            height:  calc(100% / 3);
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
         }
     }
 }
