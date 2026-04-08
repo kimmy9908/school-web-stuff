@@ -298,13 +298,12 @@ td a {
         height: auto;
         animation: gal-animation 12s infinite alternate;
         div {
-        position: relative;
-        display: flex;
-        width:  calc(100% / 3);
-        height: 100%;
+            width:  calc(100% / 3);
+            height: 100%;
             img {
                 width: 100%;
-                height: 100%;
+                height: auto;
+                margin: 0;
                 object-fit: cover;
             }
         }
