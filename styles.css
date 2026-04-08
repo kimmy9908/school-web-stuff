@@ -283,7 +283,7 @@ td a {
     margin-left: 7%;
     margin-top: 1%;
     height: auto;
-    font-size: 2em;
+    font-size: 2.4em;
     color: white;
     padding: 0;
 }
@@ -291,7 +291,7 @@ td a {
 .gallery .galitem {
     height: 24vh;
     width: 42.67vh;
-    margin: 1.5em;
+    margin: 1.8em;
 }
 
 .footerholder {
