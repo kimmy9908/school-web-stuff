@@ -292,18 +292,15 @@ td a {
     height: 24vh;
     width: 42.67vh;
     margin: 2vh;
-    .carousel-slide {
-        width: 300%;
-        div {
-            width: calc(100% / 3);
-        }
-        animation: gal-animation 12s infinite alternate;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
+}
+
+.gallery .galitem .carousel-slide {
+    width: 300%;
+    animation: gal-animation 12s infinite alternate;
+}
+
+.gallery .galitem .carousel-slide div {
+    width: calc(100% / 3);
 }
 
 @keyframes gal-animation {
