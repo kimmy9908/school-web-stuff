@@ -294,6 +294,8 @@ td a {
     width: 42.67vh;
     margin: 2vh;
     .carousel {
+        width: 100%;
+        overflow: hidden;
         .carousel-slide {
             width: 300%;
             height: auto;
