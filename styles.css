@@ -281,7 +281,7 @@ td a {
 .gallery .gal-title {
     width: 12%;
     margin-left: 7%;
-    margin-top: 1%;
+    margin-top: 2%;
     height: auto;
     font-size: 2.4em;
     color: white;
@@ -292,7 +292,7 @@ td a {
     display: flex;
     height: 24vh;
     width: 42.67vh;
-    margin: 1.8em;
+    margin: 2vh;
     div {
         height: 24vh;
         width: 42.67vh;
