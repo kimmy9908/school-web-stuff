@@ -294,7 +294,9 @@ td a {
     margin: 2vh;
     .carousel-slide {
         width: 300%;
-        height: auto;
+        div {
+            width: calc(100% / 3);
+        }
         animation: gal-animation 12s infinite alternate;
     }
 }
