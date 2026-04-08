@@ -307,10 +307,10 @@ td a {
 @keyframes gal-animation {
     0%{transform: translateX(0%);}
     36%{transform: translateX(0%);}
-    41%{transform: translateX(calc(-100% / 3));}
-    77%{transform: translateX(calc(-100% / 3));}
-    82%{transform: translateX(2 * calc(-100% / 3));}
-    100%{transform: translateX(2 * calc(-100% / 3));}
+    41%{transform: translateX(-calc(100% / 3));}
+    77%{transform: translateX(-calc(100% / 3));}
+    82%{transform: translateX(2 * -calc(100% / 3));}
+    100%{transform: translateX(2 * -calc(100% / 3));}
 }
 
 
