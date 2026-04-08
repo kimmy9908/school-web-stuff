@@ -275,7 +275,6 @@ td a {
     margin-top: 5%;
     padding-bottom: 5%;
     background-color: #265295;
-    flex-wrap: nowrap;
 }
 
 .gallery .gal-title {
@@ -297,12 +296,6 @@ td a {
         width: 300%;
         height: auto;
         animation: gal-animation 12s infinite alternate;
-        img {
-            width: 100%;
-            height: auto;
-            margin: 0;
-            object-fit: cover;
-        }
     }
 }
 
