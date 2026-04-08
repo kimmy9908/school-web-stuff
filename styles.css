@@ -281,10 +281,9 @@ td a {
 .gallery .gal-title {
     width: 12%;
     margin-left: 7%;
-    margin-top: 3%;
-    padding-bottom: 3%;
+    margin-top: 1%;
     height: auto;
-    font-size: 3em;
+    font-size: 15%;
     color: white;
     padding: 0;
 }
@@ -292,7 +291,7 @@ td a {
 .gallery .galitem {
     height: 24vh;
     width: 42.67vh;
-    margin: 2em;
+    margin: 1.5em;
 }
 
 .footerholder {
