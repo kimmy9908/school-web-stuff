@@ -298,6 +298,9 @@ td a {
             width: calc(100% / 3);
         }
         animation: gal-animation 12s infinite alternate;
+        img {
+            object-fit: fill;
+        }
     }
 }
 
