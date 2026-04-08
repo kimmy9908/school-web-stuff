@@ -293,6 +293,7 @@ td a {
     height: 24vh;
     width: 42.67vh;
     margin: 2vh;
+    overflow: hidden;
     div {
         height: 24vh;
         width: 42.67vh;
