@@ -297,17 +297,12 @@ td a {
         width: 300%;
         height: auto;
         animation: gal-animation 12s infinite alternate;
-        div {
-            width:  calc(100% / 3);
-            height: 100%;
-            img {
-                width: 100%;
-                height: auto;
-                margin: 0;
-                object-fit: cover;
-            }
+        img {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            object-fit: cover;
         }
-    }
     }
 }
 
