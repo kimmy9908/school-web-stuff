@@ -459,3 +459,8 @@ span {
     width: 48vw;
     height: 27vw;
 }
+
+.div-video video {
+    width: 100%;
+    height: auto;
+}
